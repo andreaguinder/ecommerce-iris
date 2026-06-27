@@ -3,7 +3,7 @@ import type { Product } from '../interfaces/product';
 export const perfumesMock: Product[] = [
   {
     id: 9001,
-    brand: 'Lancôme',
+    brand: 'La Vie Est Belle',
     name: 'La Vie Est Belle EDP',
     price: '145.00',
     image_link: 'https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=400&q=80',

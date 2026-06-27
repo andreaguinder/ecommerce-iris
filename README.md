@@ -2,7 +2,7 @@
 
 **Iris** es una plataforma web moderna y responsiva orientada al comercio y catálogo de productos de cosmética, maquillaje y perfumería internacional. El proyecto fue desarrollado poniendo el foco en las interacciones fluidas, una arquitectura limpia y modular, y una interfaz de usuario atractiva adaptada a dispositivos móviles tablet y de escritorio.
 
-🚀 **Despliegue en vivo:** [Ver proyecto en Vercel](https://tu-proyecto.vercel.app) *(Enlace provisorio)*
+🚀 **Despliegue en vivo:** [Ver proyecto en Vercel](https://ecommerce-iris.vercel.app/)
 
 
 ---
