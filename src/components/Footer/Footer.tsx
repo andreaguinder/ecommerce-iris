@@ -15,7 +15,7 @@ export const Footer: FC = () => {
         </p>
 
         <p className={styles.credits}>
-          &copy; {currentYear} - Desarrollado con ♡ por{' '}
+           Desarrollado por{' '}
           <a 
             href="https://andreaguinder.com/" 
             target="_blank" 
@@ -23,7 +23,7 @@ export const Footer: FC = () => {
             className={styles.portfolioLink}
           >
             Andrea Guinder
-          </a>
+          </a> - &copy; {currentYear} 
         </p>
 
       </div>
