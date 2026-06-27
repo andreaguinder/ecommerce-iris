@@ -1,0 +1,150 @@
+.detailWrapper {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #B24293;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  transition: transform 0.2s;
+}
+
+.backButton:hover {
+  transform: translateX(-4px);
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(249, 110, 199, 0.05);
+}
+
+.imageSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imageWindow {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #FFE9FB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: zoom-in;
+}
+
+.fallbackActive {
+  object-fit: contain;
+  padding: 2rem;
+  pointer-events: none;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.brand {
+  color: #B24293;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #333333;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #F96EC7;
+  margin: 0;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #FFE9FB;
+  margin: 0.5rem 0;
+}
+
+.descriptionContainer h3 {
+  color: #333333;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #666666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.metaItem {
+  font-size: 0.9rem;
+  color: #555555;
+  margin: 0.25rem 0;
+}
+
+.cartButtonWrapper {
+  margin-top: 1.5rem;
+}
+
+.errorContainer {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+
+@media (min-width: 768px) {
+  .detailContainer {
+    flex-direction: row;
+    padding: 3rem;
+    gap: 4rem;
+  }
+
+  .imageSection {
+    flex: 1;
+  }
+
+  .imageWindow {
+    max-width: 100%;
+    height: 600px;
+    object-fit: contain;
+  }
+
+  .infoSection {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 2.4rem;
+  }
+}

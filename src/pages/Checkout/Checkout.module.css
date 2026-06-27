@@ -1,0 +1,125 @@
+.container {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.stepper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #FFE9FB;
+    padding-bottom: 1rem;
+}
+
+.step {
+    color: #aaa;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.step.active {
+    color: #B24293;
+    border-bottom: 3px solid #B24293;
+    padding-bottom: 1rem;
+    margin-bottom: -19px;
+}
+
+.stepBox {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid #FFE9FB;
+    box-shadow: 0 4px 20px rgba(249, 110, 199, 0.05);
+}
+
+.summaryList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1.5rem 0;
+}
+
+.summaryItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    border-bottom: 1px dashed #FFE9FB;
+    padding-bottom: 0.5rem;
+}
+
+.totalBlock {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #F96EC7;
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.btnRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.clearBtn {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.inputGroup label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.inputGroup input {
+    padding: 0.8rem;
+    border: 2px solid #FFE9FB;
+    border-radius: 8px;
+    outline: none;
+}
+
+.inputGroup input:focus {
+    border-color: #F96EC7;
+}
+
+.err {
+    color: #ff4d4d;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.paymentMethods {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1rem 0;
+}
+
+.simulationNotice {
+    background: #FFE9FB;
+    border-left: 4px solid #B24293;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #333;
+    margin: 1.5rem 0;
+}
+
+.successBox {
+    text-align: center;
+    border-color: #B24293;
+}

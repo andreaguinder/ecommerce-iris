@@ -1,0 +1,174 @@
+.homeContainer {
+  width: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.bannerSlide {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.sectionTitle {
+  color: #B24293;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.brandsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.brandCard {
+  background-color: #FFE9FB;
+  border: 2px solid transparent;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #B24293;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brandCard:hover {
+  border-color: #F96EC7;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(249, 110, 199, 0.15);
+}
+
+.bannerSlide {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bannerImage {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.positionTop {
+    object-position: top;
+}
+
+.productsCarouselWrapper {
+  position: relative;
+  margin: 0 auto 2rem auto;
+  width: 100%;
+}
+
+.productsCarouselWrapper :global(.swiper) { 
+  height: 470px; 
+  padding-bottom: 4rem;
+}
+
+.productsCarouselWrapper :global(.swiper-pagination) {
+  bottom: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.productsCarouselWrapper :global(.swiper-button-prev),
+.productsCarouselWrapper :global(.swiper-button-next) {
+  top: auto; 
+  bottom: 5px; 
+  width: 30px;
+  height: 30px;
+  color: #B24293;
+}
+
+.productsCarouselWrapper :global(.swiper-button-prev::after),
+.productsCarouselWrapper :global(.swiper-button-next::after) {
+  font-size: 16px;
+}
+
+.productsCarouselWrapper :global(.swiper-button-prev) {
+  left: calc(40% - 75px); 
+}
+
+.productsCarouselWrapper :global(.swiper-button-next) {
+  right: calc(40% - 75px); 
+}
+
+@media (min-width: 768px) {
+  .brandsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sectionTitle {
+  font-size: 1.9rem;
+}
+}
+
+@media (min-width: 1024px) {
+  .brandsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+    .sectionTitle {
+  font-size: 2.2rem;
+}
+
+  .productsCarouselWrapper {
+    margin-bottom: 4rem;
+  }
+.productsCarouselWrapper {
+    max-width: 1320px;
+    padding: 0 30px;
+  }
+
+  .productsCarouselWrapper :global(.swiper) { 
+    height: 450px; 
+    padding-bottom: 7rem;
+  }
+
+  .productsCarouselWrapper :global(.swiper-pagination) {
+    bottom: 10px; 
+  }
+
+
+  .productsCarouselWrapper :global(.swiper-button-prev),
+  .productsCarouselWrapper :global(.swiper-button-next) {
+    top: 98%; 
+    bottom: auto; 
+    width: 40px;
+    height: 40px;
+  }
+
+  .productsCarouselWrapper :global(.swiper-button-prev::after),
+  .productsCarouselWrapper :global(.swiper-button-next::after) {
+    font-size: 24px; 
+  }
+
+  .productsCarouselWrapper :global(.swiper-button-prev) {
+    left: 400px; 
+  }
+
+  .productsCarouselWrapper :global(.swiper-button-next) {
+    right: 400px; 
+  }
+
+}

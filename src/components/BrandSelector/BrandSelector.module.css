@@ -1,0 +1,70 @@
+.section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.sectionTitle {
+  color: #B24293;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.brandsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brandCard {
+  background-color: #FFE9FB;
+  border: 1px solid rgba(249, 110, 199, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.brandName {
+  color: #B24293;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.brandCard:hover {
+  background-color: #FFF2FC;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(249, 110, 199, 0.15);
+  border-color: #F96EC7;
+}
+
+.brandCard:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(249, 110, 199, 0.1);
+}
+
+@media (min-width: 768px) {
+  .brandsGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .brandCard {
+    padding: 2rem 1rem;
+  }
+
+  .brandName {
+    font-size: 1rem;
+  }
+}

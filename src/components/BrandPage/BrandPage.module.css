@@ -1,0 +1,41 @@
+.brandPageContainer {
+  padding: 1.5rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.backButtonWrapper {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  color: #B24293;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.errorContainer {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.errorText {
+  color: #666666;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .brandPageContainer {
+    padding: 3rem 2rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+}

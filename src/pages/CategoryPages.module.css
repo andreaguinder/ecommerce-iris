@@ -1,0 +1,27 @@
+.pageContainer {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 0.5rem;
+}
+
+.pageTitle {
+  color: #B24293;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+      font-size: 1.5rem;
+}
+
+
+.loadingText {
+  text-align: center;
+  color: #B24293;
+  font-weight: 500;
+  margin: 4rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .pageTitle {
+    font-size: 2.2rem;
+  }
+}

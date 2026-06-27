@@ -1,0 +1,20 @@
+.carouselContainer {
+  width: 100%;
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+:global(.swiper-button-next),
+:global(.swiper-button-prev) {
+  color: #ffffff;
+  transform: scale(0.7);
+}
+:global(.swiper-pagination-bullet) {
+  background: #390018;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: #330321;
+}
+
+

@@ -1,0 +1,41 @@
+.footer {
+  background-color: #FFE9FB;
+  padding: 2rem 1rem;
+  margin-top: 5rem;
+  border-top: 1px solid rgba(249, 110, 199, 0.2);
+  text-align: center;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #666666;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.credits {
+  font-size: 0.95rem;
+  color: #B24293;
+  font-weight: 500;
+}
+
+.portfolioLink {
+  color: #F96EC7;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.portfolioLink:hover {
+  color: #B24293;
+  text-decoration: underline;
+}
