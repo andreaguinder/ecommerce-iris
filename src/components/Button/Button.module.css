@@ -37,8 +37,11 @@
   color: #B24293;
 }
 
-.secondary-small:hover {
+.small {
   background-color: #F96EC7;
+    width: fit-content;
+  padding: 0.5rem 0.5rem;
+    color: #ffffff;
 }
 
 .button:disabled {

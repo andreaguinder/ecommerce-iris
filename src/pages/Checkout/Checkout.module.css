@@ -16,11 +16,14 @@
     color: #aaa;
     font-weight: 600;
     font-size: 0.95rem;
+    width: 33.33%;
+    padding-left: 0.75rem;
 }
 
 .step.active {
     color: #B24293;
-    border-bottom: 3px solid #B24293;
+    border-bottom: 2px solid #B24293;
+    border-right: 2px solid #B24293;
     padding-bottom: 1rem;
     margin-bottom: -19px;
 }

@@ -31,7 +31,7 @@ export const CheckoutPage: FC = () => {
 
       {step <= 3 && (
         <div className={styles.stepper}>
-          <div className={`${styles.step} ${step >= 1 ? styles.active : ''}`}>1. Resumen</div>
+          <div className={`${styles.step} ${step >= 1 ? styles.active : ''}`}>1. Resumen de Compra</div>
           <div className={`${styles.step} ${step >= 2 ? styles.active : ''}`}>2. Datos de Envío</div>
           <div className={`${styles.step} ${step >= 3 ? styles.active : ''}`}>3. Pago y Simulación</div>
         </div>
@@ -56,7 +56,7 @@ export const CheckoutPage: FC = () => {
               <div className={styles.totalBlock}>Total a pagar: ${totalPrice.toFixed(2)}</div>
               <div className={styles.btnRow}>
                 <button className={styles.clearBtn} onClick={clearCart}>Vaciar Carrito</button>
-                <Button variant="primary" onClick={() => setStep(2)}>Siguiente paso</Button>
+                <Button variant="small" onClick={() => setStep(2)}>Siguiente paso</Button>
               </div>
             </>
           )}
@@ -94,7 +94,7 @@ export const CheckoutPage: FC = () => {
 
           <div className={styles.btnRow}>
             <button type="button" className={styles.clearBtn} onClick={() => setStep(1)}>Atrás</button>
-            <Button variant="primary" type="submit">Continuar al Pago</Button>
+            <Button variant="small" type="submit">Continuar al Pago</Button>
           </div>
         </form>
       )}
@@ -115,7 +115,7 @@ export const CheckoutPage: FC = () => {
 
           <div className={styles.btnRow}>
             <button className={styles.clearBtn} onClick={() => setStep(2)}>Atrás</button>
-            <Button variant="primary" onClick={handleFinishSimulation}>Confirmar y Simular Envío</Button>
+            <Button variant="small" onClick={handleFinishSimulation}>Confirmar y Simular Envío</Button>
           </div>
         </div>
       )}
