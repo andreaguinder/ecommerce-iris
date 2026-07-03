@@ -17,12 +17,12 @@ export const Footer: FC = () => {
         <p className={styles.credits}>
            Desarrollado por{' '}
           <a 
-            href="https://andreaguinder.com/" 
+            href="https://guinderstudio.com/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className={styles.portfolioLink}
           >
-            Andrea Guinder
+            Guinder Studio
           </a> - &copy; {currentYear} 
         </p>
 
