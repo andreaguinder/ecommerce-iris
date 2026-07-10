@@ -78,6 +78,10 @@ Gracias a esto, el mismo componente base maneja tanto el banner gigante de la `H
 
 ## ⚡ Gracias por leer
 
-Si llegaste hasta acá te agradezco por leer e interesarte en la composición de mi proyecto y te dejo el enlace a mi portfolio para que sigas explorando:
+## ¿Te gustaría colaborar o tenés un desafío laboral?
 
-💼 [Andrea Guinder — Portfolio Profesional](https://andreaguinder.com)
+¡Me encantaría conectar con vos! Estoy abierta a nuevas oportunidades, proyectos desafiantes o simplemente charlar sobre tecnología.
+
+* **Email:** [andreabelen.guinder@gmail.com](mailto:andreabelen.guinder@gmail.com)
+* **LinkedIn:** [https://www.linkedin.com/in/andrea-guinder/](https://www.linkedin.com/in/andrea-guinder/)
+* **Portfolio:** [https://andreaguinder.com/](https://andreaguinder.com/)
